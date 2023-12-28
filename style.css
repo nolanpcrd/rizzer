@@ -54,6 +54,7 @@ p {
 @media screen and (min-width: 1920px) {
     p {
         font-size: 2.5em;
+        margin: 0;
     }
 
     #logoimg {
