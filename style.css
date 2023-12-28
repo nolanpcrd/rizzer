@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'gotham';
+    src: url('GothamPro-Bold.ttf') format('truetype');
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: block;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#logoimg {
+    width: 40%;
+}
+
+#rizz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.76);
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.37) 0 0 40px;
+    height: 40vh;
+    width: 50vw;
+    margin-top: 18vh;
+}
+
+#logoimgpetite {
+    width: 30%;
+}
+
+#text-container {
+    margin-top: 5%;
+    width: 70%;
+}
+
+p {
+    font-size: 1.5em;
+    font-family: 'Gotham', 'Roboto', sans-serif;
+    color: #000000;
+}
+
+@media screen and (min-width: 1920px) {
+    p {
+        font-size: 2.5em;
+    }
+
+    #logoimg {
+        width: 50%;
+    }
+
+    #logoimgpetite {
+        width: 40%;
+    }
+}
