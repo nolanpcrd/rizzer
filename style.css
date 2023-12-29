@@ -68,3 +68,20 @@ p {
         margin-top: 0;
     }
 }
+
+@media screen and (max-width: 500px) {
+    #logoimg {
+        width: 50%;
+    }
+
+    #logoimgpetite {
+        width: 40%;
+    }
+
+    #rizz-container {
+        height: 40vh;
+        width: 80vw;
+        margin-left: 8vw;
+        text-align: left;
+    }
+}
